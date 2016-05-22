@@ -1,0 +1,75 @@
+graph {
+canvas-color: white;
+fill-mode: gradient-radial;
+fill-color: #99CCFF, gray;
+padding: 20px;
+}
+
+node {
+size: 15px, 15px;
+shape: rounded-box;
+fill-color: orange;
+stroke-mode: plain;
+stroke-color: black;
+padding: 3px, 3px;
+
+text-color: black;
+text-alignment: above;
+text-style: bold;
+text-background-mode: rounded-box;
+text-padding: 5px, 4px;
+text-background-color: rgb(0,224,224);
+text-offset: 0px, -5px; 
+
+}
+node.Special {
+size: 15px, 15px;
+shape: rounded-box;
+fill-color: blue;
+stroke-mode: plain;
+stroke-color: black;
+padding: 3px, 3px;
+
+text-color: black;
+text-alignment: above;
+text-style: bold;
+text-background-mode: rounded-box;
+text-padding: 5px, 4px;
+text-background-color: rgb(0,224,224);
+text-offset: 0px, -5px; 
+}
+edge {
+shape: freeplane;
+size: 3px;
+fill-color: black;
+fill-mode: plain;
+text-color: black;
+text-style: bold;
+text-background-mode: rounded-box;
+text-padding: 5px,4px;
+text-background-color: yellow;
+}
+edge.Special {
+shape: freeplane;
+size: 3px;
+fill-color: blue;
+fill-mode: plain;
+text-color: black;
+text-style: bold;
+text-background-mode: rounded-box;
+text-padding: 5px,4px;
+text-background-color: yellow;
+}
+sprite {
+shape: circle;
+size: 12px;
+fill-mode: plain;
+
+stroke-mode: none;
+text-color: white;
+text-alignment: center;
+text-style: bold;
+text-background-mode: rounded-box;
+text-padding: 5px, 4px;
+text-offset: 0px, -5px;
+}
