@@ -49,7 +49,7 @@ Other Lines => First Station, Second Station, Weight
 
 TRAIN FILE FORMAT:  
 First Line => Number of Stations  
-Origin, Destination, Departure Time, Train Priority  
+Other Lines => Origin, Destination, Departure Time, Train Priority  
 
 4  
 2 5 3 6  
