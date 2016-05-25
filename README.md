@@ -7,7 +7,7 @@ Place all classes inside the same Eclipse project.
 
 There are two "Driver" classes, TrainDispatch and TrainDispatchTest.  
 
-TrainDispatchTest utilizes the TestFilePrinter class which  
+TrainDispatchTest utilizes the TestFilePrinter class while  
 TrainDispatch does not.  
 
 As a jumping off point, use the TrainDispatch class and the two text files  
